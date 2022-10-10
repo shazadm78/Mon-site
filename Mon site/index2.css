@@ -1,0 +1,50 @@
+/* CSS Document */
+H1 {font-size: 35;
+    border-width:6px; 
+    border-style:solid; 
+    border-color:black;
+    color:blue;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+}
+
+footer {background-color:white;
+        position:absolute;
+        bottom:0;
+        width:100%;
+        padding-top:10px;
+        height:20px;
+        text-align: center
+}
+
+ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {float: left;
+}
+
+li a {display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {background-color: blue;
+}
+
+H2 {font-family: "Arial", sans-serif;
+    font-size: 22px;
+    
+}
+
+
+/* Fin du document */
